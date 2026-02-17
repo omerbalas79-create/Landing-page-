@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ע.ב אומנות הצבע - עבודות צבע והחלקת קירות</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700;800&display=swap');
+        body { font-family: 'Assistant', sans-serif; background-color: #f8fafc; }
+        .hero-bg { background: linear-gradient(135deg, #ffffff 0%, #e2e8f0 100%); position: relative; overflow: hidden; }
+        .service-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+        .service-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-2xl font-black text-slate-800 tracking-tight">
+                ע.ב <span class="text-blue-600">אומנות הצבע</span>
+            </div>
+            <a href="tel:0529062609" class="bg-blue-600 text-white px-6 py-2 rounded-full font-bold hover:bg-blue-700 transition">
+                052-9062609
+            </a>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero-bg py-20 border-b border-slate-200">
+        <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12 text-right">
+            <div class="md:w-1/2">
+                <h1 class="text-5xl md:text-7xl font-black text-slate-900 mb-6 leading-tight">
+                    מומחים ב<span class="text-blue-600">עבודות צבע</span><br>והחלקת קירות
+                </h1>
+                <p class="text-xl text-slate-600 mb-8 max-w-lg">
+                    איכות ללא פשרות, עבודה נקייה ומקצועית בכל סוגי הצבע והחידושים. הבית שלכם בידיים של המקצוענים.
+                </p>
+                <div class="flex flex-wrap gap-4">
+                    <a href="tel:0529062609" class="bg-slate-900 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-slate-800 transition shadow-lg">שיחת ייעוץ חינם</a>
+                    <a href="https://wa.me/972529062609" class="bg-green-500 text-white px-8 py-4 rounded-xl font-bold text-lg hover:bg-green-600 transition shadow-lg flex items-center gap-2">
+                        <i class="fab fa-whatsapp"></i> וואטסאפ
+                    </a>
+                </div>
+            </div>
+            <div class="md:w-1/2">
+                <div class="relative p-2 bg-white shadow-2xl rounded-2xl max-w-md mx-auto">
+                    <!-- קישור ישיר לתמונה ב-GitHub שלך -->
+                    <img src="https://raw.githubusercontent.com/omerbalas79-create/Landing-page-1/main/IMG_9762.jpg" alt="כרטיס ביקור ע.ב אומנות הצבע" class="rounded-xl w-full h-auto shadow-inner">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-16 text-slate-800 underline decoration-blue-500 decoration-4 underline-offset-8">השירותים שלנו</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-10 text-right">
+                <div class="service-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">🏠</div>
+                    <h3 class="text-xl font-bold mb-4">צביעת דירות ובתים</h3>
+                    <p class="text-slate-600">צביעה יסודית, תיקונים מורכבים והקפדה על ניקיון הרהיטים והרצפה.</p>
+                </div>
+                <div class="service-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">✨</div>
+                    <h3 class="text-xl font-bold mb-4">החלקת קירות (שפכטל)</h3>
+                    <p class="text-slate-600">עבודה מקצועית ברמת גימור משי, קירות חלקים ומראה יוקרתי.</p>
+                </div>
+                <div class="service-card bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="w-14 h-14 bg-blue-50 text-blue-600 rounded-xl flex items-center justify-center text-2xl mb-6">🎨</div>
+                    <h3 class="text-xl font-bold mb-4">חידוש וצביעת מטבחים</h3>
+                    <p class="text-slate-600">חיסכון של אלפי שקלים על ידי חידוש המטבח הקיים למראה חדש ומודרני.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-white py-16 border-t border-slate-200">
+        <div class="container mx-auto px-6 text-center">
+            <div class="text-3xl font-black text-slate-800 mb-6">עומר - ע.ב אומנות הצבע</div>
+            <div class="flex flex-col items-center gap-4 mb-8">
+                <a href="tel:0529062609" class="text-2xl font-bold text-blue-600 hover:underline">052-9062609</a>
+                <div class="bg-slate-50 px-6 py-4 rounded-xl border border-slate-200 inline-block text-right">
+                    <p class="font-bold text-slate-700">שעות פעילות:</p>
+                    <p class="text-slate-600">ימים א' - ה': 08:00 - 20:00</p>
+                </div>
+            </div>
+            <p class="text-slate-400 text-sm">© 2024 ע.ב אומנות הצבע. כל הזכויות שמורות.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
